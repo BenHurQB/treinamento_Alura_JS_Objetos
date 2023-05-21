@@ -8,5 +8,5 @@ const clienteEmString = JSON.stringify(dados); // salva em string
 console.log(clienteEmString);
 console.log(typeof clienteEmString);
 
-const objetoCliente = JSON.parse(clienteEmString);
+const objetoCliente = JSON.parse(clienteEmString); // transforma em json
 console.log(objetoCliente);
